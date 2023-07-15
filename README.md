@@ -2,7 +2,7 @@
 A super simple lightwight llm api wrapper, call llm with only 4 lines of code
 
 # examples:
-```
+```python
 from simple_gpt import simple_gpt
 
 llm = simple_gpt()
