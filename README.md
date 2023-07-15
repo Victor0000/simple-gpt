@@ -10,5 +10,13 @@ llm.memory_append = ["Who are you?", "user"]
 completion = llm.complete()
 ```
 # Road Map
+## llm support
 - Support openai api calls
 - Support other llms
+
+## Tools
+- Support more tools that can be performed by agents
+
+## Suports external apis
+- Discord bot
+- Instagram / messenger api
