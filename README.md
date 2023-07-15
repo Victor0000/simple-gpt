@@ -1,7 +1,7 @@
 # Simple-gpt
 A super simple lightwight llm api wrapper, call llm with only 4 lines of code
 
-# examples:
+# Simple api calls:
 ```python
 from simple_gpt import simple_gpt
 
