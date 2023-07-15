@@ -31,8 +31,9 @@ class simple_gpt:
 
      @memory.setter
      def memory_append(self, set):
-          prompt, type = set
-          self.__protected_memory.append({"role": type, "content": prompt})
+          if self.__llm_format == "chat":
+               prompt, type = set
+               self.__protected_memory.append({"role": type, "content": prompt})
 
      # Global completion call to the llm
      def complete(self):
