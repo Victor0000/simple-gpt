@@ -1,4 +1,6 @@
 import openai
+import os
+
 class simple_gpt:
      def __init__(
           self, 
@@ -7,7 +9,7 @@ class simple_gpt:
           llm_model: str = "gpt-3.5-turbo", 
           temperature: float = 0.7,
           max_tokens: int = 150,
-          llm_key: str = "",
+          llm_key: str = os.getenv("OPENAI_API_KEY"),
      ) -> None:
           
           # llm setup
